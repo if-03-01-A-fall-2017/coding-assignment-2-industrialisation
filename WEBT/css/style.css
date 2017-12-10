@@ -1,0 +1,116 @@
+body{
+	background-color:#303030;
+}
+
+h1{
+  text-align: center;
+	color: white;
+}
+em{
+	color: white;
+}
+strong{
+	color: white;
+}
+h2{
+	color: white;
+}
+h3{
+	color: #8F8787;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+	font-size: 20px;
+}
+a{
+	color: lightgreen;
+}
+p{
+	color: white;
+	text-align: center;
+}
+
+.header-image {
+	background-image:url("../img/intro-bg.jpg");
+	height: 80%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/*
+button.links{
+	background-color: rgba(255,255,255,0.3); 
+	color: #ffffff; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	padding: 8px; 
+	margin: 4px 0; 
+	text-align: left; 
+	border: none; 
+	outline: none; 
+	transition: 0.3s; 
+}
+button.links:hover{
+	background-color: rgba(255,255,255,0.3); 
+}
+button.links.active{
+	background-color: #ffffff; 
+	color: #000000; 
+	border-radius: 4px 4px 0 0; 
+	margin: 4px 0 0; 
+
+}
+div.panel{
+	background-color: rgba(255,255,255,0.3); 
+	color: #000000; 
+	border-radius: 0 0 4px 4px; 
+	margin: 0; 
+	padding:0 8px; 
+	max-height: 0; 
+	overflow: hidden; 
+	transition: 0.3s; 
+	opacity: 0; 	
+}
+div.panel.show{
+	margin: 2px 0 4px; 
+	padding: 8px; 
+	opacity: 1; 
+	max-height: 500px; 
+}
+*/
+	/*
+  background: -webkit-linear-gradient(#483D8B, black);
+  opacity: 0.3;
+  this is needed to be used over the header...
+*/
+/* Buttons for index
+.header-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-text button:hover {
+  background-color: #555;
+  color: white;
+}
+*/
